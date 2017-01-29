@@ -1,0 +1,93 @@
+<html>
+	<head>
+		<title>Dublin Bikes</title>
+		<meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="css/Bike-stylesheet.css">
+        <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+        <header>
+            <h1><img src ="./images/DB-banner.jpg" alt="Logo" style="height:100" ></h1>
+        </header>
+	</head>
+	<body>
+        <div id="section1">
+        <div id="searchbox">
+            Select a Station:
+            <select id="stations"></select>
+            <button id="btn1" type="button" onclick="showWindow()">Select</button>
+        </div>
+
+        <div id="googleMap"></div>
+        
+        <div id = "content">
+            <p>View all bike lanes on the map:</p>
+            <form name=form2>
+                <input id="layer" type="checkbox" name="layer"> Bike Lane Layer<br>
+            </form>
+        </div>
+        
+        <div id="legend">
+            <table>
+                <tr>
+                    <td><img src = 'http://maps.google.com/mapfiles/ms/icons/red-dot.png' alt="red dot">No bikes available</td>
+                </tr>
+                <tr>
+                    <td><img src = 'http://maps.google.com/mapfiles/ms/icons/yellow-dot.png' alt="yellow dot">Five or less bikes available</td>
+                </tr>
+                <tr>
+                    <td><img src = 'http://maps.google.com/mapfiles/ms/icons/green-dot.png' alt="green dot">More than five bikes available</td>
+                </tr>
+            </table>
+        </div>
+
+            <div id="photo">
+                <img src="./images/bikes.jpg">
+            </div>
+
+        </div>
+        
+        <div class="charts">
+            <ul>
+                <li id="piechart"></li>
+                <li id="piechart2"></li>
+                <li id="dropdown">
+                     <form name="form1">
+                        Select a Day:
+                            <select id="day">
+                                <option value="0">Monday</option>
+                                <option value="1">Tuesday</option>
+                                <option value="2">Wednesday</option>
+                                <option value="3">Thursday</option>
+                                <option value="4">Friday</option>
+                                <option value="5">Saturday</option>
+                                <option value="6">Sunday</option>
+                            </select>
+                         <button id="btn" type="button" onclick="getDayHour()">Select</button>
+                     </form>
+                    <div id='piechart3'></div>
+                </li>
+               
+            </ul>
+        </div>
+        <script type = "text/javascript" src = "https://www.gstatic.com/charts/loader.js"></script>
+        <script type = "text/javascript" src = "/scripts.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxoFZrJtUh4yMRk17Zfc_mFwYyxojdcUw&callback=initMap"></script>
+    </body>
+</html>
+
+    
+        <!--
+        <div id="googleMap" style="width:500px;height:500px;"></div>
+        <div id = "content">
+            <form name=form2>
+                <input id="layer" type="checkbox" name="layer">Bike Lane Layer<br>
+            </form>
+        </div>
+        <div id="piechart" style="width:500px;height:500px;"></div>
+        <div id="barchart1" style="width:500px;height:500px;"></div>
+        <div id="barchart2" style="width:500px;height:500px;"></div>
+        
+        <script src = "http://maps.googleapis.com/maps/api/js?key=AIzaSyCY9N7RNIV9BxiUZXgXtTp4-wLoMUVAgaU"></script>
+        <script type = "text/javascript" src = "https://www.gstatic.com/charts/loader.js"></script>
+        <script type = "text/javascript" src = "/scripts.js"></script>   
+    </body>
+</html>-->

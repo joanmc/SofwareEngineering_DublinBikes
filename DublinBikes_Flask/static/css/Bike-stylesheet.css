@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    height: 100px;
+    background-color: #114D57;
+    padding-left: 210px;
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: "Noto sans", Noto sans, monospace;
+}
+
+#section1{
+    background-color: #f5f5f5;
+    height: 520px;
+}
+
+#searchbox {
+    font-size: 25px;
+    text-align: center;
+    margin: 10px 10px 0 30px;
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    background-color: #C8E8ED;
+    border-style: outset;
+    border-color: #114D57;
+    border-radius: 10px;
+}
+
+#btn1 {
+    font-size: 15px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 8px;
+}
+
+#btn {
+    font-size: 10px;
+    padding: 1.5px 1.5px 1.5px 1.5px;
+    border-radius: 8px;
+}
+
+#stations {
+    font-family: "Noto sans", Noto sans, monospace;
+    font-size: 20px;
+    height: 30px;
+}
+
+#googleMap {
+    width:60%;
+    height:500px;
+    float: left;
+    margin: 10px 0 0 30px;
+    border-style: outset;
+    border-color: #114D57;
+    border-radius: 10px;"
+}
+
+#legend {
+    width: 25%;
+    float: left;
+    display: inline-block;
+    margin: 10px 0 0 20px;
+    font-size:12px;
+    
+}
+
+#content {
+    margin-top: 10px;
+    width: 20%;
+    float: left;
+    margin-left: 20px;
+   
+}
+
+tr:hover{background-color:#f5f5f5}
+
+#photo {
+    margin: 10px 0 10px 40px;
+    float: left;
+    padding: 10px;
+    border-style: outset;
+    border-color: #114D57;
+    border-radius: 10px;
+    background-color: #C8E8ED;
+}
+
+
+
+.charts ul{
+	margin-top: 20px;
+}
+
+.charts ul li{
+	float: left;
+    margin: 20px 0 0 20px;
+	text-align: center;
+    
+}
+
+#piechart {
+    display: none;
+    margin-left: 30px;
+    width: 360px;
+    height: 350px;
+    border-style: outset;
+    border-color: #114D57;
+    border-radius: 10px;
+}
+
+#piechart2 {
+    display: none;
+    width: 360px;
+    height: 350px;
+    border-style: outset;
+    border-color: #114D57;
+    border-radius: 10px;
+}
+
+#dropdown {
+    display: none;
+    background-color: white;
+    width: 360px;
+    height: 350px;
+    border-style: outset;
+    border-color: #114D57;
+    border-radius: 10px;
+}
+
+#piechart3 {
+    width: 360px;
+    height: 320px;
+}
+
+
+
+
+
